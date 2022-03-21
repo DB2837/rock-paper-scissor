@@ -4,9 +4,70 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="./main.js" defer></script>
     <title>Rock Paper Scissor</title>
   </head>
   <body>
-    <script src="./main.js"></script>
+    <header class="header">
+      <h1>Rock Paper Scissor</h1>
+    </header>
+
+    <div class="container">
+      <div class="score">
+        <h2>Choose your weapon!</h2>
+        <h3>First to reach 5 points wins the game</h3>
+        <div class="score-card-container">
+          <div class="score-card">
+            <h3>Your score:</h3>
+            <h4>0</h4>
+            <div id="img-choise">
+              <img
+                src="/images/free-question-mark-icon-27.jpg"
+                alt="paper"
+                class="card-image"
+              />
+            </div>
+          </div>
+          <div class="score-card">
+            <h3>Computer score:</h3>
+            <h4>0</h4>
+            <div id="img-choise">
+              <img
+                src="/images/free-question-mark-icon-27.jpg"
+                alt="paper"
+                class="card-image"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="card">
+          <img
+            src="/images/rock-paper-scissors-icon-2.jpg"
+            alt="paper"
+            class="card-image"
+          />
+        </div>
+
+        <div class="card">
+          <img
+            src="/images/rock-paper-scissors-icon-3.jpg"
+            alt="rock"
+            class="card-image"
+          />
+        </div>
+
+        <div class="card">
+          <img
+            src="/images/rock-paper-scissors-icon-4.jpg"
+            alt="scissor"
+            class="card-image"
+          />
+        </div>
+      </div>
+    </div>
   </body>
 </html>
