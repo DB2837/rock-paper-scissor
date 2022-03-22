@@ -88,6 +88,14 @@ img {
   padding: 5px;
 }
 
+.card-winner {
+  background-color: rgb(94, 255, 0) !important;
+}
+
+.card-loser {
+  background-color: rgba(255, 38, 0, 0.918);
+}
+
 .card:hover {
   transform: scale(1.1);
 }
