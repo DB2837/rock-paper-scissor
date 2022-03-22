@@ -103,11 +103,11 @@ img {
 @media screen and (min-width: 740px) {
   body {
     font-size: 22px;
-    height: 90vh;
+    min-height: 800px;
   }
 
   .container {
-    height: 75vh;
+    min-height: 380px;
   }
 
   .score {
@@ -125,6 +125,7 @@ img {
 
   .card-container {
     margin-top: 40px;
+    min-height: 300px;
   }
 
   .score-card {
