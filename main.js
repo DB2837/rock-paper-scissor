@@ -42,21 +42,21 @@ computerPlay = () =>
 
 function changePlayerImage(playerChoice) {
   if (playerChoice == "paper") {
-    playerChoiceImage.src = "images/rock-paper-scissors-icon-2.jpg";
+    playerChoiceImage.src = "images/rock-paper-scissors-icon-2.JPG";
   } else if (playerChoice == "rock") {
-    playerChoiceImage.src = "images/rock-paper-scissors-icon-3.jpg";
+    playerChoiceImage.src = "images/rock-paper-scissors-icon-3.JPG";
   } else if (playerChoice == "scissor") {
-    playerChoiceImage.src = "images/rock-paper-scissors-icon-4.jpg";
+    playerChoiceImage.src = "images/rock-paper-scissors-icon-4.JPG";
   }
 }
 
 function changeComputerImage(computerChoice) {
   if (computerChoice == "paper") {
-    computerChoiceImage.src = "images/rock-paper-scissors-icon-2.jpg";
+    computerChoiceImage.src = "images/rock-paper-scissors-icon-2.JPG";
   } else if (computerChoice == "rock") {
-    computerChoiceImage.src = "images/rock-paper-scissors-icon-3.jpg";
+    computerChoiceImage.src = "images/rock-paper-scissors-icon-3.JPG";
   } else if (computerChoice == "scissor") {
-    computerChoiceImage.src = "images/rock-paper-scissors-icon-4.jpg";
+    computerChoiceImage.src = "images/rock-paper-scissors-icon-4.JPG";
   }
 }
 
