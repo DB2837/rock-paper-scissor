@@ -131,11 +131,3 @@ function resetGame() {
   playerScore.textContent = playerCounter;
   computerScore.textContent = computerCounter;
 }
-
-/* function game() {
-  for (let i = 0; i < 5; i++) {
-    console.log(playRound());
-  }
-}
-
-game(); */
